@@ -1,0 +1,71 @@
+/* navber css  start*/
+.navbar-brand img{
+    height: 50px;
+    width: auto; 
+}
+
+ .brand-name{
+ 
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 25px;
+ }
+
+ /* মূল মেনুগুলোর (Home, Contact, About, Services) স্বাভাবিক অবস্থা */
+.navbar-nav .nav-link {
+    padding: 8px 16px;
+    margin: 0 4px;
+    border-radius: 8px;
+    color: #333333;
+    font-weight: 800;
+    transition: all 0.3s ease;
+    font-family: "Caveat", cursive;
+    font-size: 160%;
+}
+
+/* মূল মেনুগুলোতে মাউস নিলে (Hover) আপনার পছন্দের গ্রেডিয়েন্ট আসবে */
+.navbar-nav .nav-link:hover {
+    background: linear-gradient(45deg, #f1efed, #ff3366);
+    color: #222222; /* হালকা ও গাঢ় রঙের মাঝে লেখা স্পষ্ট দেখানোর জন্য */
+    transform: translateY(-2px); /* হালকা উপরে ওঠার অ্যানিমেশন */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #222222; 
+    color: #ffffff !important; 
+    transform: translateY(-4px);
+    border-radius: 30px;
+    
+}
+
+.dropdown-menu {
+    background-color: #070708;
+    border-radius: 50px;
+    padding: 10px;
+    border: 1px solid #230b80;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #e0e0e0;
+    border-radius: 60px;
+    padding: 10px 16px;
+    transition: all 0.3s ease;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background: linear-gradient(45deg, #f1efed, #ff3366);
+    color: #10041b;
+    box-shadow: 0 4px 15px rgba(128, 55, 7, 0.4);
+}
+/* navber css end*/
+
+
+
+
+/* slider start */
+
+
+
+/* slider start */
